@@ -23,6 +23,44 @@
     width: 200px;
     height: 100%;
     background-color: #000000;
+    padding: 20px;
+}
+
+#sidebar_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#logo {
+    /* Debug */
+    background-color: blanchedalmond;
+    margin-bottom: 30px;
+}
+
+#sidebar_menu {
+    /* Debug */
+    background-color: rgb(0, 0, 0);
+    /* height: 400px; */
+}
+
+#sidebar_menu ul {
+    list-style-type: none;
+}
+
+.svg {
+    /* background-color: aliceblue; */
+    height: 30px;
+    width: 30px;
+}
+
+.svg img {
+    width: 100%;
+}
+
+#sidebar_menu span {
+    color: #ffffff; 
+    font-size: 15px;
 }
 
 /* contenitore principale */
