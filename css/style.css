@@ -23,45 +23,100 @@
     width: 200px;
     height: 100%;
     background-color: #000000;
-    padding: 20px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
 }
 
-#sidebar_content {
+#logo {
+    /* Debug */
+    /* background-color: blanchedalmond; */
+    margin-bottom: 30px;
+}
+
+#logo img {
+    width: 80%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.home_search_library li {
+    font-size: 18px;
+    color: #d2d2d2;
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+    padding: 0 0 0 30px;
+}
+
+#Home {
+    background: url(../img/home.svg) no-repeat left top;  
+}
+
+#Cerca {
+    background: url(../img/search.svg) no-repeat left top;
+}
+
+#Libreria {
+    background: url(../img/libreria.svg) no-repeat left top;
+}
+
+.sidebar_list {
+    /* background-color: rgb(187, 112, 13); */
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-#logo {
-    /* Debug */
-    background-color: blanchedalmond;
-    margin-bottom: 30px;
+#plus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 6px;
 }
 
-#sidebar_menu {
-    /* Debug */
-    background-color: rgb(0, 0, 0);
-    /* height: 400px; */
-}
-
-#sidebar_menu ul {
-    list-style-type: none;
-}
-
-.svg {
-    /* background-color: aliceblue; */
+.crea_playlist {
+    background-color: #a3a3a3; 
+    width: 30px; 
     height: 30px;
-    width: 30px;
+    text-align: center;
 }
 
-.svg img {
+/* .end_sidebar {
+    background-color: rgb(206, 43, 43);
+    height: 100px;
+} */
+
+.download_app {
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+}
+
+#download {
+    width: 15px;
+    margin-right: 10px;
+}
+
+#download img {
     width: 100%;
 }
 
-#sidebar_menu span {
-    color: #ffffff; 
-    font-size: 15px;
+#profile_container {
+    display: flex;
 }
+
+#profile_img {
+    height: 25px;
+    width: 25px;
+    background-color: #a3a3a3;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
 
 /* contenitore principale */
 
@@ -74,7 +129,7 @@
 
 #topbar {
     background-color: #080b12;
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
