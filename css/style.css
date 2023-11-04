@@ -156,4 +156,38 @@ ul {
 #controller {
     height: 80px;
     background-color: #282828;
+    padding: 15px;
 }
+
+.controller_container {
+    background-color: blanchedalmond;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_bar {
+    background-color: chartreuse;
+    /* height: 100%;
+    width: 300px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.song_player {
+    /* background-color: aliceblue; */
+    height: 100%;
+    /* width: 50%; */
+    display: flex;
+    margin-right: 20px;
+}
+
+.song_img {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/sinister.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
