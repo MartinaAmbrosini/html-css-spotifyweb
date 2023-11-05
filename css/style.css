@@ -21,7 +21,7 @@
 /* sidebar */
 #sidebar {
     width: 200px;
-    height: 100%;
+    height: calc(100vh - 80px);
     background-color: #000000;
     padding: 15px 20px;
     display: flex;
@@ -70,6 +70,12 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.mobile_bar {
+    display: flex;
+    flex-direction: column;
+    display: none;
 }
 
 #plus {
@@ -358,3 +364,74 @@ ul {
     }
 }
 
+@media screen and (max-width: 480px) {
+    .navbar_main {
+        flex-wrap: wrap;
+        max-width: 255px;
+    }
+
+    .main_container {
+        padding: 10px 5px 0 5px;
+    }
+
+    .song_card {
+        width: calc(60% / 2);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #logo {
+        display: none;
+    }
+
+    .home_search_library {
+        display: none;
+    }
+
+    .playlist {
+        display: none;
+    }
+
+    #sidebar {
+        width: 60px;
+        padding: 5px 10px;
+    }
+
+    .mobile_bar {
+        display: block;
+        text-align: center;
+    }
+
+    .mobile_bar img {
+        width: 60%;
+    }
+
+    .download_app {
+        justify-content: center;
+    }
+
+    #profile_container {
+        justify-content: center;
+    }
+
+    .download_app p {
+        display: none;
+    }
+
+    .profile p {
+        display: none;
+    }
+
+    #bar {
+        display: none;
+    }
+
+    #topbar {
+        margin-left: 60px;
+        width: calc(100% - 60px);
+    }
+
+    .main_container {
+        margin: 80px 0 80px 60px;
+    }
+}
