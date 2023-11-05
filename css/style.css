@@ -157,9 +157,7 @@ ul {
     height: calc(150vh - 160px);
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 10px 30px 0 30px;
     overflow: scroll;
     margin: 80px 0 80px 200px;
 }
@@ -231,8 +229,6 @@ ul {
     width: 27vw;
 }
 
-
-
 /* stili controller */
 
 #controller {
@@ -283,17 +279,12 @@ ul {
 .center_bar {
     /* background-color: chartreuse;
     height: 100%; */
-    width: 40%;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}
-
-.right_bar {
-    /* background-color: chartreuse;
-    height: 100%; */
-    width: 250px;
+    margin-right: 10px;
 }
 
 .player_top {
@@ -309,7 +300,7 @@ ul {
 .player_bottom {
     /* background-color: rgb(17, 17, 17); */
     height: 20px;
-    width: 500px;
+    width: 90%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -324,5 +315,46 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    max-width: 300px;
+}
+
+.right_bar i {
+    margin-right: 7px;
+}
+
+/* tablet version */
+
+@media screen and (max-width: 768px) {
+
+    .recently_played {
+        max-width: 500px;
+    }
+
+    .main_container {
+        padding: 10px 15px 0 15px;
+    }
+
+    .card_container {
+        flex-wrap: wrap;
+        justify-content:flex-start;
+    }
+
+    .navbar_main {
+        align-self: flex-start;
+        max-width: 525px;
+    }
+
+    .song_card {
+        margin-right: 25px;
+        margin-bottom: 20px;
+    }
+
+    .created_for {
+        width: 80vw;
+    }
+
+    .popular_artist {
+        width: 80vw;
+    }
 }
 
