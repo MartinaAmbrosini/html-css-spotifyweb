@@ -26,7 +26,8 @@
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
-    flex-direction: column; 
+    flex-direction: column;
+    position: fixed;
 }
 
 #logo {
@@ -133,6 +134,9 @@ ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-left: 200px;
+    position: fixed;
+    width: calc(100% - 200px);
 }
 
 #topbar_bottone {
@@ -151,14 +155,14 @@ ul {
 
 .main_container {
     background-color: beige;
-    height: calc(100vh - 160px);
+    height: calc(120vh - 160px);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    
+    overflow: scroll;
+    margin: 80px 0 80px 200px;
 }
 
 .navbar_main {
@@ -202,7 +206,7 @@ ul {
     background-color: rgb(240, 169, 118);
     height: 250px;
     width: 400px;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
 }
 
 .popular_artist {
@@ -218,6 +222,8 @@ ul {
     height: 80px;
     background-color: #282828;
     padding: 15px;
+    position: fixed;
+    width: 100%;
 }
 
 .controller_container {
