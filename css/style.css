@@ -133,7 +133,6 @@ ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    position: relative;
 }
 
 #topbar_bottone {
@@ -142,7 +141,6 @@ ul {
     margin-right: 30px;
     padding: 13px 40px;
     display: flex;
-    position: fixed;
 }
 
 #topbar_bottone a {
@@ -156,22 +154,63 @@ ul {
     height: calc(100vh - 160px);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
 }
 
 .navbar_main {
-    /* background-color: rgb(221, 143, 41);
-    height: 50px; */
+    background-color: rgb(221, 143, 41);
+    /* height: 50px; */
     width: 650px;
     align-self: center;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 10px;
 }
 
 .navbar_main p {
     font-size: 12px;
     color: #7d7f84;
 }
+
+.recently_played {
+    background-color: burlywood;
+    /* height: 300px; */
+    margin-bottom: 10px;
+}
+
+.card_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.song_card {
+    /* background-color: cadetblue; */
+    /* height: 300px; */
+    width: calc(80% / 6);
+}
+
+.song_card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.created_for {
+    background-color: rgb(240, 169, 118);
+    height: 250px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.popular_artist {
+    background-color: burlywood;
+    height: 250px;
+    width: 400px;
+}
+
 
 /* stili controller */
 
