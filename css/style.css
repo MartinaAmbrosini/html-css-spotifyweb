@@ -124,7 +124,6 @@ ul {
 #main-content {
     /* width: calc(100vw - 200px); */
     flex-grow: 1;
-    background-color: #141922;
     height: 100%;
 }
 
@@ -154,7 +153,7 @@ ul {
 }
 
 .main_container {
-    background-color: beige;
+    background-color: #141922;
     height: calc(150vh - 160px);
     display: flex;
     flex-direction: column;
@@ -183,7 +182,7 @@ ul {
 .recently_played {
     /* background-color: burlywood; */
     /* height: 300px; */
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .card_container {
@@ -219,7 +218,7 @@ ul {
     /* background-color: rgb(240, 169, 118); */
     /* height: 250px; */
     width: 27vw;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 #createdfor_container {
@@ -227,9 +226,9 @@ ul {
 }
 
 .popular_artist {
-    background-color: burlywood;
-    height: 500px;
-    width: 500px;
+    /* background-color: burlywood; */
+    /* height: 500px; */
+    width: 27vw;
 }
 
 
