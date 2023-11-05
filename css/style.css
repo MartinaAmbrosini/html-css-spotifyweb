@@ -155,7 +155,7 @@ ul {
 
 .main_container {
     background-color: beige;
-    height: calc(120vh - 160px);
+    height: calc(150vh - 160px);
     display: flex;
     flex-direction: column;
     padding-top: 10px;
@@ -166,7 +166,7 @@ ul {
 }
 
 .navbar_main {
-    background-color: rgb(221, 143, 41);
+    /* background-color: rgb(221, 143, 41); */
     /* height: 50px; */
     width: 650px;
     align-self: center;
@@ -181,9 +181,9 @@ ul {
 }
 
 .recently_played {
-    background-color: burlywood;
+    /* background-color: burlywood; */
     /* height: 300px; */
-    margin-bottom: 10px;
+    margin-bottom: 60px;
 }
 
 .card_container {
@@ -194,7 +194,20 @@ ul {
 .song_card {
     /* background-color: cadetblue; */
     /* height: 300px; */
-    width: calc(80% / 6);
+    width: calc(75vw / 6);
+}
+
+.song_title {
+    font-size: 15px; 
+    color: white; 
+    text-align: center; 
+    margin-bottom: 4px;
+}
+
+.song_text {
+    font-size: 10px; 
+    color: #7d7f84; 
+    text-align: center;
 }
 
 .song_card img {
@@ -203,17 +216,22 @@ ul {
 }
 
 .created_for {
-    background-color: rgb(240, 169, 118);
-    height: 250px;
-    width: 400px;
+    /* background-color: rgb(240, 169, 118); */
+    /* height: 250px; */
+    width: 27vw;
     margin-bottom: 60px;
+}
+
+#createdfor_container {
+    justify-content: flex-start;
 }
 
 .popular_artist {
     background-color: burlywood;
-    height: 250px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
 }
+
 
 
 /* stili controller */
